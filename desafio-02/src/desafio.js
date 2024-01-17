@@ -5,7 +5,7 @@ function matches(victory, defeat) {
 }
 
 function rank() {
-    let resultRank = matches(150, 35)
+    let resultRank = matches(50, 35)
     let level = " "
 
     if (resultRank <= 10){
@@ -28,3 +28,5 @@ function rank() {
 }
 
 console.log(rank())
+
+// teste
